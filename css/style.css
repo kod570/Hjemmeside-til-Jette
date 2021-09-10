@@ -108,9 +108,8 @@ nav ul li a:hover {
 
 
 
-}
 footer {
-  background-image: url(../img/KBH_Skyline_johannes_lys.png);
+  background-image: url("../img/KBH_Skyline_johannes_lys.png");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
