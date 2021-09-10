@@ -8,13 +8,13 @@ header {
   background-image: url(../img/light-sky-clouds-675977.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1400px;
-  display: flex;
   margin: 0 auto;
 }
 
-header img {
+#headersection {
+  display: flex;
   max-width: 1400px;
+  margin: 0 auto;
 }
 
 header p {
