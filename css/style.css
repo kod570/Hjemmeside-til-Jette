@@ -76,6 +76,37 @@ nav ul li a:hover {
   color: white;
 }
 
+#billede-af-børnehave {
+  padding: 50px;
+  box-shadow: 10px 10px 5px blac;
+}
+
+#billede-af-børnehave h2 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 70px;
+}
+
+#white-box1 {
+  display: flex;
+  max-width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgb(163, 163, 163);
+}
+
+#white-box1 article {
+  width: 50%;
+  padding: 40px;
+  font-size: 20px;
+}
+
+#white-box1 img {
+  width: 50%;
+  object-fit: cover;
+}
+
 #billede-over-footer ul {
   margin-left: 20px;
 }
@@ -85,24 +116,41 @@ nav ul li a:hover {
   padding: 80px 0px;
 }
 
-#white-box {
+#billede-over-footer h2 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 70px;
+}
+
+#white-box2 {
   display: flex;
   max-width: 80%;
   margin: 0 auto;
   background-color: white;
   border-radius: 15px;
   overflow: hidden;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
-#white-box article {
+#white-box2 article {
   width: 50%;
-  padding: 50px;
+  padding: 60px;
   font-size: 30px;
 }
 
-#white-box img {
+#white-box2 img {
   width: 50%;
   object-fit: cover;
+}
+
+#billede-over-footer a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-color: rgb(25, 56, 158);
+  padding: 8px 8px;
+  margin: 20px;
+  width: 165px;
+  text-align: center;
 }
 
 footer {
@@ -114,6 +162,7 @@ footer {
   height: 500px;
   margin-top: 150px;
 }
+
 #footer-section {
   display: flex;
   justify-content: flex-end;
