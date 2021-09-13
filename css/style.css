@@ -50,3 +50,229 @@ nav ul li a {
 nav ul li a:hover {
   background-color: rgba(0, 0, 255, 0.493);
 }
+
+#aktiviteter {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+#aktiviteter h2 {
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+#aktiviteter h2::first-letter {
+  text-transform: uppercase;
+}
+
+#aktiviteter-1 {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#aktiviteter-1 section {
+  max-width: 500px;
+  max-height: 400px;
+}
+
+#aktiviteter-1 section img {
+  max-width: 500px;
+  max-height: 325px;
+}
+
+#politik {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+#politik h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Shadows Into Light", cursive;
+  margin: 20px 0px 10px 0px;
+}
+
+#politik h1::first-letter {
+  text-transform: uppercase;
+}
+
+#politik-1 {
+  padding: 10px;
+}
+
+#politik-1 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-1 p {
+}
+
+#politik-2 {
+  padding: 10px;
+}
+
+#politik-2 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-2 p {
+}
+
+#politik-3 {
+  padding: 10px;
+}
+
+#politik-3 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-3 p {
+}
+
+#politik-4 {
+  padding: 10px;
+}
+
+#politik-4 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-4 p {
+}
+
+#politik-5 {
+  padding: 10px;
+}
+
+#politik-5 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-5 p {
+}
+
+#politik-6 {
+  padding: 10px;
+}
+
+#politik-6 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-7 {
+  padding: 10px;
+}
+
+#politik-7 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-8 {
+  padding: 10px;
+}
+
+#politik-8 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-9 {
+  padding: 10px;
+}
+
+#politik-9 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-10 {
+  padding: 10px;
+}
+
+#politik-10 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-11 {
+  padding: 10px;
+}
+
+#politik-11 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-12 {
+  padding: 10px;
+}
+
+#politik-12 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-13 {
+  padding: 10px;
+}
+
+#politik-13 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-14 {
+  padding: 10px;
+}
+
+#politik-14 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-15 {
+  padding: 10px;
+}
+
+#politik-15 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-16 {
+  padding: 10px;
+}
+
+#politik-16 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-17 {
+  padding: 10px;
+}
+
+#politik-17 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-18 {
+  padding: 10px;
+}
+
+#politik-18 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-19 {
+  padding: 10px;
+}
+
+#politik-19 h3 {
+  padding: 10px 0px 10px 0px;
+}
+
+#politik-20 {
+  padding: 10px 10px 30px 10px;
+}
+
+#politik-20 h3 {
+  padding: 10px 0px 10px 0px;
+}
