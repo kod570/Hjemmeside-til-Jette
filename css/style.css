@@ -74,6 +74,39 @@ nav ul li a:hover {
   color: white;
 }
 
+#billede-af-børnehave{
+  padding: 50px;
+  box-shadow: 10px 10px 5px blac
+}
+
+
+#billede-af-børnehave h2{
+  font-family: "Shadows Into Light", cursive;
+    font-size: 70px;
+}
+
+#white-box1 {
+  display: flex;
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgb(163, 163, 163)
+}
+
+#white-box1 article {
+  width: 50%;
+  padding: 40px;
+  font-size: 20px;
+}
+
+#white-box1 img{
+  width: 50%;
+    object-fit: cover;
+}
+
+
   #billede-over-footer ul{
     margin-left: 20px;
   }
@@ -86,25 +119,26 @@ nav ul li a:hover {
 
   #billede-over-footer h2{
     font-family: "Shadows Into Light", cursive;
-    font-size: 80px;
+    font-size: 70px;
   }
   
-  #white-box{
+  #white-box2 {
     display: flex;
     max-width: 80%;
     margin: 0 auto;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0)
   }
   
-  #white-box article{
+  #white-box2 article{
     width: 50%;
     padding: 60px;
-    font-size: 20px;
+    font-size: 30px;
   }
   
-  #white-box img{
+  #white-box2 img{
     width: 50%;
     object-fit: cover;
   }
@@ -118,9 +152,7 @@ nav ul li a:hover {
     margin: 20px;
     width: 165px;
     text-align: center;
-
-
-
+  }
 
 footer {
   background-image: url("../img/KBH_Skyline_johannes_lys.png");
