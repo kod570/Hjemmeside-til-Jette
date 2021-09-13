@@ -8,18 +8,24 @@ header {
   background-image: url(../img/light-sky-clouds-675977.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1400px;
-  display: flex;
   margin: 0 auto;
 }
 
-header img {
+#headersection {
+  display: flex;
   max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#headersection a {
+  display: inline-block;
+  margin-top: 15px;
 }
 
 header p {
   padding-top: 300px;
-  font-size: 30px;
+  font-size: 29px;
   text-align: center;
   padding-right: 20px;
 }
@@ -28,6 +34,22 @@ header a {
   padding: 10px;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: rgba(22, 152, 37, 1);
+  color: white;
+}
+
+#welcometo {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: rgba(22, 152, 37, 1);
+}
+
+#welcometo img {
+  height: 300px;
 }
 
 nav {
@@ -39,16 +61,189 @@ nav ul {
   list-style-type: none;
   justify-content: flex-end;
   padding: 24px;
-  margin-right: 40px;
+  margin-right: 10px;
 }
 nav ul li a {
   padding: 25px;
   height: 15px;
   text-decoration: none;
   color: black;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 22px;
 }
 nav ul li a:hover {
-  background-color: rgba(0, 0, 255, 0.493);
+  background-color: rgba(22, 152, 37, 1);
+  color: white;
+}
+
+#billede-af-børnehave {
+  padding: 50px;
+  box-shadow: 10px 10px 5px blac;
+}
+
+#billede-af-børnehave h2 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 70px;
+}
+
+#white-box1 {
+  display: flex;
+  max-width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgb(163, 163, 163);
+}
+
+#white-box1 article {
+  width: 50%;
+  padding: 40px;
+  font-size: 20px;
+}
+
+#white-box1 img {
+  width: 50%;
+  object-fit: cover;
+}
+
+#billede-over-footer ul {
+  margin-left: 20px;
+}
+
+#billede-over-footer {
+  background-image: url("/img/billede-over-footer1.png");
+  padding: 80px 0px;
+}
+
+#billede-over-footer h2 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 70px;
+}
+
+#white-box2 {
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+#white-box2 article {
+  width: 50%;
+  padding: 60px;
+  font-size: 30px;
+}
+
+#white-box2 img {
+  width: 50%;
+  object-fit: cover;
+}
+
+#billede-over-footer a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-color: rgb(25, 56, 158);
+  padding: 8px 8px;
+  margin: 20px;
+  width: 165px;
+  text-align: center;
+}
+
+footer {
+  background-image: url("../img/KBH_Skyline_johannes_lys.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  width: 100%;
+  height: 500px;
+  margin-top: 150px;
+}
+
+#footer-section {
+  display: flex;
+  justify-content: flex-end;
+
+  max-width: 1400px;
+  margin: 0 auto;
+}
+address {
+  width: 25%;
+}
+address h4 {
+  color: rgba(22, 152, 37, 1);
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 24px;
+}
+#footer-section ul {
+  margin: 10px;
+  list-style-type: none;
+}
+#footer-section ul li {
+  padding: 10px;
+  font-size: 22px;
+}
+
+#footer-galleri-div {
+  display: flex;
+  max-width: 345px;
+  flex-wrap: wrap;
+}
+#footer-galleri-div h4 {
+  color: rgba(22, 152, 37, 1);
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 24px;
+}
+#footer-galleri-div img {
+  max-width: 100px;
+  margin: 5px;
+}
+#nyhedsbrev {
+  max-width: 330px;
+  margin-left: 35px;
+  background-color: teal;
+}
+#nyhedsbrev h4 {
+  color: rgba(22, 152, 37, 1);
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 24px;
+}
+#nyhedsbrev p {
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+form {
+  display: block;
+  margin: auto 0;
+}
+::placeholder {
+  padding-left: 5px;
+}
+input[type="email"] {
+  width: 50%;
+  height: 20px;
+  border: none;
+  background-color: lightgrey;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  background-color: rgba(22, 152, 37, 1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 25%;
+  height: 30px;
 }
 
 #aktiviteter {
