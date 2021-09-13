@@ -174,11 +174,12 @@ address {
   width: 25%;
 }
 address h4 {
-  color: rgba(22, 152, 37, 1);
-  width: 100%;
-  margin-bottom: 10px;
-  font-family: "Shadows Into Light", cursive;
-  font-size: 24px;
+    color: rgba(22, 152, 37, 1);
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 24px;
+  }
 }
 #footer-section ul {
   margin: 10px;
