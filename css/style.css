@@ -277,8 +277,9 @@ input[type="email"]::placeholder {
   font-size: 18px;
   line-height: 50px;
 }
-input[type="email"] {
-  max-width: 195px;
+
+#Email-footer{
+  width: 75%;
   height: 45px;
   border: none;
   background-color: lightgrey;
@@ -286,13 +287,13 @@ input[type="email"] {
   text-indent: 15px;
 }
 
-input[type="submit"] {
+#Tilmeld-footer{
   margin-top: 10px;
   background-color: rgba(22, 152, 37, 1);
   border: none;
   border-radius: 5px;
   color: white;
-  max-width: 130px;
+  max-width: 50%;
   height: 40px;
   font-size: 25px;
   cursor: pointer;
