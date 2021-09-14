@@ -162,7 +162,9 @@ footer {
   height: 500px;
   margin-top: 150px;
 }
-
+#footer-section img {
+  width: 25%;
+}
 #footer-section {
   display: flex;
   justify-content: flex-end;
@@ -170,6 +172,7 @@ footer {
   max-width: 1400px;
   margin: 0 auto;
 }
+
 #info {
   width: 25%;
 }
