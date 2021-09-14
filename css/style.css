@@ -195,40 +195,19 @@ footer {
   height: 500px;
   margin-top: 150px;
 }
-#footer-section img {
-  width: 25%;
+#logo {
+  max-width: 250px;
+  height: 300px;
+  margin-right: 150px;
 }
 #footer-section {
   display: flex;
   justify-content: flex-end;
-
+  align-items: flex-start;
   max-width: 1400px;
   margin: 0 auto;
 }
 
-#info {
-  width: 25%;
-}
-#info h4 {
-  color: rgba(22, 152, 37, 1);
-  font-family: "Shadows Into Light", cursive;
-  font-size: 24px;
-}
-#info ul {
-}
-#info ul li {
-}
-#info ul li a {
-  text-decoration: underline;
-  color: black;
-  padding: 10px 10px 10px 5px;
-  margin-bottom: 15px;
-  font-size: 22px;
-  display: inline-block;
-}
-#info ul li a:hover {
-  color: rgba(22, 152, 37, 1);
-}
 address {
   width: 25%;
 }
@@ -256,9 +235,9 @@ address h4 {
 #footer-galleri-div h4 {
   color: rgba(22, 152, 37, 1);
   width: 100%;
-  margin-bottom: 10px;
   font-family: "Shadows Into Light", cursive;
   font-size: 24px;
+  margin-bottom: 10px;
 }
 #footer-galleri-div img {
   max-width: 100px;
@@ -344,6 +323,11 @@ input[type="submit"] {
 #aktiviteter-1 section img {
   max-width: 500px;
   max-height: 325px;
+  border-radius: 10px 10px 0px 0px;
+}
+#aktiviteter-1 h4::before {
+  content: "";
+  position: relative;
 }
 
 #aktiviteter-1 h4 {
@@ -379,70 +363,6 @@ input[type="submit"] {
   padding: 10px 0px 10px 0px;
 }
 
-#politik-2 {
-  padding: 10px;
-}
-
-#politik-2 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-3 {
-  padding: 10px;
-}
-
-#politik-3 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-4 {
-  padding: 10px;
-}
-
-#politik-4 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-5 {
-  padding: 10px;
-}
-
-#politik-5 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-6 {
-  padding: 10px;
-}
-
-#politik-6 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-7 {
-  padding: 10px;
-}
-
-#politik-7 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-8 {
-  padding: 10px;
-}
-
-#politik-8 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-9 {
-  padding: 10px;
-}
-
-#politik-9 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
 #politik-10 {
   padding: 10px;
 }
@@ -451,75 +371,11 @@ input[type="submit"] {
   padding: 10px 0px 10px 0px;
 }
 
-#politik-11 {
+.Vedtaegter {
   padding: 10px;
 }
 
-#politik-11 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-12 {
-  padding: 10px;
-}
-
-#politik-12 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-13 {
-  padding: 10px;
-}
-
-#politik-13 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-14 {
-  padding: 10px;
-}
-
-#politik-14 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-15 {
-  padding: 10px;
-}
-
-#politik-15 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-16 {
-  padding: 10px;
-}
-
-#politik-16 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-17 {
-  padding: 10px;
-}
-
-#politik-17 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-18 {
-  padding: 10px;
-}
-
-#politik-18 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-19 {
-  padding: 10px;
-}
-
-#politik-19 h3 {
+.Vedtaegter h3 {
   padding: 10px 0px 10px 0px;
 }
 
@@ -529,4 +385,84 @@ input[type="submit"] {
 
 #politik-20 h3 {
   padding: 10px 0px 10px 0px;
+}
+
+#galleri h2{
+  padding: 50px;
+  font-size: 50px;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  color: white;
+}
+
+#gallerioverskrift{
+  margin-top: 5px;
+  background-image: url(../img/billede-over-footer1.png);
+  background-position: center;
+}
+
+#gallerilink{
+  padding-top: 35px;
+  padding-left: 15px;
+}
+
+#gallerilink li{
+  list-style-type: none;
+}
+
+#gallerilink a{
+  font-size: 18px;
+  color: black;
+  font-family: "Shadows Into Light", cursive;
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+#gallerilink a:hover{
+  color: rgba(22, 152, 37, 1);
+}
+
+#galleri h3{
+  margin-top: 15px;
+  padding: 25px;
+  font-size: 40px;
+}
+
+#galleri h4{
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+#stemningsbilleder{
+  text-align: center;
+  justify-content: space-around;
+}
+
+#stemningsbilleder img{
+  object-fit: cover;
+  width: 32%;
+  height: 250px;
+}
+
+#måltider{
+  text-align: center;
+  justify-content: space-around;
+}
+
+#måltider img{
+  object-fit: cover;
+  width: 32%;
+  height: 250px;
+}
+
+#stuer{
+  text-align: center;
+  justify-content: space-around;
+}
+
+#stuer img{
+  object-fit: cover;
+  width: 49%;
+  height: 350px;
 }
