@@ -124,7 +124,7 @@ nav ul li a:hover {
 
 #white-box1 {
   display: flex;
-  max-width: 70%;
+  max-width: 1400px;
   margin: 0 auto;
   background-color: white;
   border-radius: 15px;
@@ -345,6 +345,15 @@ input[type="submit"] {
 }
 
 #aktiviteter-1 a {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+#aktiviteter-1 a span {
+  margin-right: 5px;
+  color: black;
 }
 
 #politik {
