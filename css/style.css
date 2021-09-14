@@ -325,7 +325,6 @@ input[type="email"]::placeholder {
 
 #aktiviteter-1 section {
   max-width: 500px;
-  max-height: 400px;
   border-radius: 10px;
   margin-bottom: 50px;
 }
@@ -361,6 +360,11 @@ input[type="email"]::placeholder {
 #aktiviteter-1 a span {
   margin-right: 5px;
   color: black;
+  font-weight: bold;
+}
+
+.color {
+  color: rgba(22, 152, 37, 1);
 }
 
 #politik {
