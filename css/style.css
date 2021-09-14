@@ -32,6 +32,11 @@ header div {
   text-align: center;
 }
 
+#headersection div img {
+  width: 35%;
+  margin-top: 40px;
+}
+
 #headersection a {
   display: inline-block;
   margin-top: 15px;
@@ -41,7 +46,7 @@ header div {
 }
 
 header p {
-  padding-top: 300px;
+  padding-top: 30px;
   font-size: 29px;
   text-align: center;
   padding-right: 20px;
