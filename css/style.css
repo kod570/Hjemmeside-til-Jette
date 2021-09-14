@@ -63,7 +63,7 @@ header a {
   color: white;
 }
 
-h1{
+h1 {
   font-size: 75px;
 }
 
@@ -427,6 +427,24 @@ input[type="submit"] {
 }
 #bestyrelsen .small img {
   width: 100%;
+}
+#medarbejder {
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+#medarbejder div {
+  width: 35%;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+#medarbejder div img {
+  width: 100%;
+}
+#medarbejder div p {
+  margin-top: 30px;
 }
 
 #gallerilink {
