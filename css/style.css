@@ -63,6 +63,17 @@ header a {
   color: white;
 }
 
+#headerforaldreinfo {
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 45px;
+  color: rgba(22, 152, 37, 1);
+}
+
 #welcometo {
   font-family: "Shadows Into Light", cursive;
   font-size: 50px;
