@@ -63,7 +63,7 @@ header a {
   color: white;
 }
 
-#headerforaldreinfo {
+.headeralle {
   height: 200px;
   text-align: center;
   display: flex;
@@ -387,7 +387,7 @@ input[type="submit"] {
   padding: 10px 0px 10px 0px;
 }
 
-#galleri h2{
+#galleri h2 {
   padding: 50px;
   font-size: 50px;
   font-family: "Shadows Into Light", cursive;
@@ -395,22 +395,22 @@ input[type="submit"] {
   color: white;
 }
 
-#gallerioverskrift{
+#gallerioverskrift {
   margin-top: 5px;
   background-image: url(../img/billede-over-footer1.png);
   background-position: center;
 }
 
-#gallerilink{
+#gallerilink {
   padding-top: 35px;
   padding-left: 15px;
 }
 
-#gallerilink li{
+#gallerilink li {
   list-style-type: none;
 }
 
-#gallerilink a{
+#gallerilink a {
   font-size: 18px;
   color: black;
   font-family: "Shadows Into Light", cursive;
@@ -418,50 +418,50 @@ input[type="submit"] {
   padding: 5px 15px;
 }
 
-#gallerilink a:hover{
+#gallerilink a:hover {
   color: rgba(22, 152, 37, 1);
 }
 
-#galleri h3{
+#galleri h3 {
   margin-top: 15px;
   padding: 25px;
   font-size: 40px;
 }
 
-#galleri h4{
+#galleri h4 {
   font-size: 20px;
   padding-top: 25px;
   padding-bottom: 15px;
 }
 
-#stemningsbilleder{
+#stemningsbilleder {
   text-align: center;
   justify-content: space-around;
 }
 
-#stemningsbilleder img{
+#stemningsbilleder img {
   object-fit: cover;
   width: 32%;
   height: 250px;
 }
 
-#måltider{
+#måltider {
   text-align: center;
   justify-content: space-around;
 }
 
-#måltider img{
+#måltider img {
   object-fit: cover;
   width: 32%;
   height: 250px;
 }
 
-#stuer{
+#stuer {
   text-align: center;
   justify-content: space-around;
 }
 
-#stuer img{
+#stuer img {
   object-fit: cover;
   width: 49%;
   height: 350px;
