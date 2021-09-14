@@ -162,40 +162,19 @@ footer {
   height: 500px;
   margin-top: 150px;
 }
-#footer-section img {
-  width: 25%;
+#logo {
+  max-width: 250px;
+  height: 300px;
+  margin-right: 150px;
 }
 #footer-section {
   display: flex;
   justify-content: flex-end;
-
+  align-items: flex-start;
   max-width: 1400px;
   margin: 0 auto;
 }
 
-#info {
-  width: 25%;
-}
-#info h4 {
-  color: rgba(22, 152, 37, 1);
-  font-family: "Shadows Into Light", cursive;
-  font-size: 24px;
-}
-#info ul {
-}
-#info ul li {
-}
-#info ul li a {
-  text-decoration: underline;
-  color: black;
-  padding: 10px 10px 10px 5px;
-  margin-bottom: 15px;
-  font-size: 22px;
-  display: inline-block;
-}
-#info ul li a:hover {
-  background-color: rgba(22, 152, 37, 1);
-}
 address {
   width: 25%;
 }
@@ -223,9 +202,9 @@ address h4 {
 #footer-galleri-div h4 {
   color: rgba(22, 152, 37, 1);
   width: 100%;
-  margin-bottom: 10px;
   font-family: "Shadows Into Light", cursive;
   font-size: 24px;
+  margin-bottom: 10px;
 }
 #footer-galleri-div img {
   max-width: 100px;
