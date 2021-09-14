@@ -115,18 +115,31 @@ nav ul li a:hover {
   color: white;
 }
 
-.dropdown{
+#dropdown{
   position: relative;
   display: inline-block;
 }
 
-.dropdown-content{
+#dropdown-content{
+  width: 170px;
   display: none;
   position: absolute;
   background-color: white;
 }
 
-.dropdown:hover .dropdown-content{
+#dropdown-content a{
+  height: auto;
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+#dropdown-content a:hover{
+  background-color: none;
+}
+
+#dropdown:hover #dropdown-content{
   display: block;
 }
 
@@ -200,7 +213,7 @@ nav ul li a:hover {
   text-decoration: none;
   color: white;
   display: inline-block;
-  background-color: rgba(22, 152, 37, 1);
+  background-color: rgb(25, 56, 158);
   padding: 8px 8px;
   margin: 20px;
   width: 165px;
@@ -240,17 +253,12 @@ address h4 {
   font-size: 24px;
 }
 #footer-section address ul {
-  margin: 10px 0px 10px 0px;
+  margin: 10px;
   list-style-type: none;
 }
 #footer-section address ul li {
-  padding: 10px 0px 10px 0px;
+  padding: 10px;
   font-size: 22px;
-}
-
-#footer-section address ul li a {
-  color: black;
-  text-decoration: none;
 }
 
 #footer-galleri-div {
@@ -272,7 +280,6 @@ address h4 {
 #nyhedsbrev {
   max-width: 330px;
   margin-left: 35px;
-  padding-right: 10px;
 }
 #nyhedsbrev h4 {
   color: rgba(22, 152, 37, 1);
@@ -295,8 +302,7 @@ input[type="email"]::placeholder {
   font-size: 18px;
   line-height: 50px;
 }
-
-#Email-footer{
+input[type="email"] {
   width: 75%;
   height: 45px;
   border: none;
@@ -305,13 +311,13 @@ input[type="email"]::placeholder {
   text-indent: 15px;
 }
 
-#Tilmeld-footer{
+input[type="submit"] {
   margin-top: 10px;
   background-color: rgba(22, 152, 37, 1);
   border: none;
   border-radius: 5px;
   color: white;
-  max-width: 50%;
+  width: 50%;
   height: 40px;
   font-size: 25px;
   cursor: pointer;
