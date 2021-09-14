@@ -494,3 +494,53 @@ input[type="submit"] {
   min-width: 400px;
   height: 500px;
 }
+
+#kontakt-os{
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 50px 15px;
+}
+
+#kontakt-os label{
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+#kontakt-os form {
+  display: block;
+}
+#kontakt-os input[type="email"], input[type="text"]::placeholder {
+  font-size: 18px;
+  line-height: 50px;
+}
+#kontakt-os input[type="email"], input[type="text"] {
+  padding-top: 0px;
+  width: 30%;
+  height: 45px;
+  border: none;
+  background-color: lightgrey;
+  line-height: 50px;
+  text-indent: 15px;
+}
+
+#kontakt-os input[type="submit"] {
+  margin-top: 10px;
+  background-color: rgba(22, 152, 37, 1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 30%;
+  height: 40px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+textarea{
+  width: 500px;
+  height: 200px;
+  border: none;
+  background-color: lightgrey;
+  line-height: 50px;
+  text-indent: 15px;
+}
