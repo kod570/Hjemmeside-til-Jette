@@ -63,7 +63,7 @@ header a {
   color: white;
 }
 
-h1{
+h1 {
   font-size: 75px;
 }
 
@@ -345,6 +345,16 @@ input[type="submit"] {
 }
 
 #aktiviteter-1 a {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+#aktiviteter-1 a span {
+  margin-right: 5px;
+  padding-bottom: 5px;
+  color: black;
 }
 
 #politik {
