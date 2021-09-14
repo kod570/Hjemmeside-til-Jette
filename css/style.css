@@ -156,7 +156,7 @@ nav ul li a:hover {
 
 #white-box2 {
   display: flex;
-  max-width: 80%;
+  max-width: 1400px;
   margin: 0 auto;
   background-color: white;
   border-radius: 15px;
@@ -297,7 +297,7 @@ input[type="submit"] {
 
 #aktiviteter h2 {
   text-align: center;
-  color: blue;
+  color: rgba(22, 152, 37, 1);
   font-size: 50px;
   font-family: "Shadows Into Light", cursive;
 }
@@ -307,7 +307,7 @@ input[type="submit"] {
 }
 
 #aktiviteter-1 {
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -331,11 +331,17 @@ input[type="submit"] {
 }
 
 #aktiviteter-1 h4 {
-  margin: 10px 0px 10px 5px;
+  margin: 10px 0px 10px 10px;
+  font-weight: lighter;
+  font-size: 1.4rem;
 }
 
 #aktiviteter-1 p {
-  margin: 10px 0px 10px 5px;
+  margin: 10px 0px 10px 10px;
+  font-size: 1.2rem;
+}
+
+#aktiviteter-1 a {
 }
 
 #politik {
