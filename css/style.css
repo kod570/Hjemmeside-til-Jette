@@ -63,6 +63,10 @@ header a {
   color: white;
 }
 
+h1{
+  font-size: 75px;
+}
+
 .headeralle {
   height: 200px;
   text-align: center;
@@ -70,7 +74,6 @@ header a {
   justify-content: center;
   align-items: center;
   font-family: "Shadows Into Light", cursive;
-  font-size: 45px;
   color: rgba(22, 152, 37, 1);
 }
 
@@ -414,6 +417,7 @@ input[type="submit"] {
 #bestyrelsen .big {
   width: 35%;
   margin: 20px;
+  margin-bottom: 50px;
 }
 #bestyrelsen .big img {
   width: 100%;
@@ -423,19 +427,6 @@ input[type="submit"] {
 }
 #bestyrelsen .small img {
   width: 100%;
-}
-#galleri h2 {
-  padding: 50px;
-  font-size: 50px;
-  font-family: "Shadows Into Light", cursive;
-  text-align: center;
-  color: white;
-}
-
-#gallerioverskrift {
-  margin-top: 5px;
-  background-image: url(../img/billede-over-footer1.png);
-  background-position: center;
 }
 
 #gallerilink {
@@ -478,8 +469,10 @@ input[type="submit"] {
 
 #stemningsbilleder img {
   object-fit: cover;
-  width: 32%;
-  height: 250px;
+  width: 33%;
+  max-width: 90%;
+  min-width: 300px;
+  height: 300px;
 }
 
 #måltider {
@@ -489,8 +482,10 @@ input[type="submit"] {
 
 #måltider img {
   object-fit: cover;
-  width: 32%;
-  height: 250px;
+  width: 33%;
+  max-width: 90%;
+  min-width: 300px;
+  height: 300px;
 }
 
 #stuer {
@@ -500,6 +495,8 @@ input[type="submit"] {
 
 #stuer img {
   object-fit: cover;
-  width: 49%;
-  height: 350px;
+  width: 48%;
+  max-width: 90%;
+  min-width: 400px;
+  height: 500px;
 }
