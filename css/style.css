@@ -311,6 +311,11 @@ input[type="submit"] {
 #aktiviteter-1 section img {
   max-width: 500px;
   max-height: 325px;
+  border-radius: 10px 10px 0px 0px;
+}
+#aktiviteter-1 h4::before {
+  content: "";
+  position: relative;
 }
 
 #aktiviteter-1 h4 {
@@ -346,70 +351,6 @@ input[type="submit"] {
   padding: 10px 0px 10px 0px;
 }
 
-#politik-2 {
-  padding: 10px;
-}
-
-#politik-2 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-3 {
-  padding: 10px;
-}
-
-#politik-3 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-4 {
-  padding: 10px;
-}
-
-#politik-4 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-5 {
-  padding: 10px;
-}
-
-#politik-5 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-6 {
-  padding: 10px;
-}
-
-#politik-6 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-7 {
-  padding: 10px;
-}
-
-#politik-7 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-8 {
-  padding: 10px;
-}
-
-#politik-8 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-9 {
-  padding: 10px;
-}
-
-#politik-9 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
 #politik-10 {
   padding: 10px;
 }
@@ -418,75 +359,11 @@ input[type="submit"] {
   padding: 10px 0px 10px 0px;
 }
 
-#politik-11 {
+.Vedtaegter {
   padding: 10px;
 }
 
-#politik-11 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-12 {
-  padding: 10px;
-}
-
-#politik-12 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-13 {
-  padding: 10px;
-}
-
-#politik-13 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-14 {
-  padding: 10px;
-}
-
-#politik-14 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-15 {
-  padding: 10px;
-}
-
-#politik-15 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-16 {
-  padding: 10px;
-}
-
-#politik-16 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-17 {
-  padding: 10px;
-}
-
-#politik-17 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-18 {
-  padding: 10px;
-}
-
-#politik-18 h3 {
-  padding: 10px 0px 10px 0px;
-}
-
-#politik-19 {
-  padding: 10px;
-}
-
-#politik-19 h3 {
+.Vedtaegter h3 {
   padding: 10px 0px 10px 0px;
 }
 
