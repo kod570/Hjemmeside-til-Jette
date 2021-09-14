@@ -124,7 +124,7 @@ nav ul li a:hover {
 
 #white-box1 {
   display: flex;
-  max-width: 70%;
+  max-width: 1400px;
   margin: 0 auto;
   background-color: white;
   border-radius: 15px;
