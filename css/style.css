@@ -375,3 +375,35 @@ input[type="submit"] {
 #politik-20 h3 {
   padding: 10px 0px 10px 0px;
 }
+#holdet {
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 45px;
+  color: rgba(22, 152, 37, 1);
+}
+#bestyrelsen {
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+#bestyrelsen div {
+}
+#bestyrelsen .big {
+  width: 35%;
+  margin: 20px;
+}
+#bestyrelsen .big img {
+  width: 100%;
+}
+#bestyrelsen .small {
+  width: 25%;
+}
+#bestyrelsen .small img {
+  width: 100%;
+}
