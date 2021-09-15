@@ -533,13 +533,13 @@ h1 {
 }
 
 #kontakt-os input[type="email"],
-input[type="text"]::placeholder {
+#kontakt-os input[type="text"]::placeholder {
   font-size: 18px;
   line-height: 50px;
 }
 
 #kontakt-os input[type="email"],
-input[type="text"] {
+#kontakt-os input[type="text"] {
   padding-top: 0px;
   width: 30%;
   height: 45px;
@@ -561,7 +561,7 @@ input[type="text"] {
   cursor: pointer;
 }
 
-textarea {
+#kontakt-os textarea {
   width: 500px;
   height: 200px;
   border: none;
@@ -571,6 +571,19 @@ textarea {
 }
 
 /* kontakt side slut */
+
+/* Log-ind start */
+
+#login-form label {
+  display: block;
+  padding: 10px;
+}
+
+#login-form {
+  text-align: center;
+}
+
+/* Log-ind slut */
 
 /* footer start */
 
