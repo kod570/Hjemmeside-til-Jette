@@ -169,7 +169,6 @@ h1 {
 
 #billede-af-børnehave {
   padding: 50px;
-  box-shadow: 10px 10px 5px blac;
 }
 
 #billede-af-børnehave h2 {
@@ -787,5 +786,23 @@ input[type="email"]::placeholder {
   #select-dropdown:hover #select-dropdown-content{
     display: block;
   }
+
+@media screen and (max-width: 1260px) {
+  #aktiviteter-1 section img {
+    max-width: 350px;
+  }
+  .aktiviteter-p {
+    left: 250px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #aktiviteter-1 section img {
+    max-width: 300px;
+  }
+  .aktiviteter-p {
+    left: 200px;
+  }
+}
 
 /* media screens slut */
