@@ -830,6 +830,15 @@ input[type="email"]::placeholder {
   }
 }
 
+@media screen and (max-width: 950px) {
+  #aktiviteter-1 section img {
+    max-width: 250px;
+  }
+  .aktiviteter-p {
+    left: 150px;
+  }
+}
+
 @media screen and (max-width: 769px) {
   #headersection {
     flex-direction: column-reverse;
@@ -848,6 +857,21 @@ input[type="email"]::placeholder {
 
   #white-box1 article {
     width: 100%;
+  }
+  #aktiviteter-1{
+    flex-direction: column;
+  }
+  #aktiviteter-1{
+    align-items: center;
+  }
+  #aktiviteter-1 section{
+    max-width: 350px;
+  }
+  #aktiviteter-1 section img {
+    max-width: 100%;
+  }
+  .aktiviteter-p {
+    left: 250px;
   }
 }
 /* media screens slut */
