@@ -590,7 +590,7 @@ footer {
 #logo {
   max-width: 250px;
   height: 300px;
-  margin-right: 150px;
+  margin-right: 92px;
 }
 
 #footer-section {
@@ -602,7 +602,7 @@ footer {
 }
 
 address {
-  width: 25%;
+  max-width: 230px;
 }
 
 address h4 {
@@ -627,7 +627,19 @@ address h4 {
   color: black;
   text-decoration: none;
 }
-
+#aabning {
+  max-width: 300px;
+  padding: 0 50px;
+}
+#aabning h4 {
+  font-family: "Shadows Into Light", cursive;
+  color: rgba(22, 152, 37, 1);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#aabning p {
+  font-size: 22px;
+}
 #footer-galleri-div {
   display: flex;
   max-width: 345px;
