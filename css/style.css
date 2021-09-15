@@ -31,14 +31,28 @@ nav ul li a {
   font-size: 22px;
 }
 
+nav ul li a:hover{
+  background-color: rgba(22, 152, 37, 1);
+  color: white;
+}
+
 .here {
   background-color: rgba(22, 152, 37, 1);
   color: white;
 }
 
+.here:hover{
+  background-color: rgba(0,0,0,0);
+  color: black;
+}
+
 #dropdown {
   position: relative;
   display: inline-block;
+}
+
+li#dropdown.here{
+  height: 50px;
 }
 
 #dropdown-content {
@@ -791,6 +805,7 @@ input[type="email"]::placeholder {
     display: block;
   }
 }
+
 @media screen and (max-width: 1260px) {
   #aktiviteter-1 section img {
     max-width: 350px;
