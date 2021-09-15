@@ -262,7 +262,7 @@ h1 {
   max-width: 1400px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #aktiviteter-1 section {
