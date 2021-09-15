@@ -30,40 +30,48 @@ nav ul li a {
   font-family: "Shadows Into Light", cursive;
   font-size: 22px;
 }
-.here {
+
+nav ul li a:hover {
   background-color: rgba(22, 152, 37, 1);
   color: white;
 }
 
-#dropdown {
+#dropdown{
   position: relative;
   display: inline-block;
 }
 
-#dropdown-content {
-  width: 170px;
+#dropdown-content{
+  margin-top: 24px;
+  padding: 0px;
+  width: 155.34px;
   display: none;
   position: absolute;
   background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-#dropdown-content a {
+#dropdown-content a{
+  width: 100%;
   height: auto;
   display: inline-block;
-  margin: 10px 0px;
-  padding: 5px;
+  margin: 0px;
+  padding: 15px;
+  text-align: center;
   font-size: 18px;
 }
 
-#dropdown-content a:hover {
+#dropdown-content a:hover{
   background-color: none;
 }
 
-#dropdown:hover #dropdown-content {
+#dropdown:hover #dropdown-content{
   display: block;
 }
 
 /* navigation slut */
+
+
 
 /* header forside start */
 
@@ -124,6 +132,8 @@ header a {
 
 /* header forside slut */
 
+
+
 /* header-alle sider start */
 
 h1 {
@@ -141,6 +151,8 @@ h1 {
 }
 
 /* header-alle sider slut */
+
+
 
 /* forside css start */
 
@@ -302,9 +314,19 @@ h1 {
 
 /* forside css slut */
 
+
+
 /* Om-os side start */
 
+
+
+
+
+
+
 /* Om-os side slut */
+
+
 
 /* holdet side start */
 
@@ -369,6 +391,8 @@ h1 {
 
 /* holdet side slut */
 
+
+
 /* vedtaegter side start */
 
 #politik {
@@ -421,6 +445,8 @@ h1 {
 }
 
 /* vedtaegter side slut */
+
+
 
 /* billeder side start */
 
@@ -498,15 +524,17 @@ h1 {
 
 /* billeder side slut */
 
+
+
 /* kontakt side start */
 
-#kontakt-os {
+#kontakt-os{
   margin: 0 auto;
   max-width: 1400px;
   padding: 50px 15px;
 }
 
-#kontakt-os label {
+#kontakt-os label{
   display: block;
   margin-top: 20px;
   font-size: 1.2rem;
@@ -516,14 +544,12 @@ h1 {
   display: block;
 }
 
-#kontakt-os input[type="email"],
-input[type="text"]::placeholder {
+#kontakt-os input[type="email"], input[type="text"]::placeholder {
   font-size: 18px;
   line-height: 50px;
 }
 
-#kontakt-os input[type="email"],
-input[type="text"] {
+#kontakt-os input[type="email"], input[type="text"] {
   padding-top: 0px;
   width: 30%;
   height: 45px;
@@ -545,7 +571,7 @@ input[type="text"] {
   cursor: pointer;
 }
 
-textarea {
+textarea{
   width: 500px;
   height: 200px;
   border: none;
@@ -555,6 +581,7 @@ textarea {
 }
 
 /* kontakt side slut */
+
 
 /* footer start */
 
@@ -594,6 +621,7 @@ address h4 {
   font-size: 24px;
 }
 
+
 #footer-section address ul {
   margin: 10px 0px 10px 0px;
   list-style-type: none;
@@ -604,7 +632,7 @@ address h4 {
   font-size: 22px;
 }
 
-#footer-section address ul li a {
+#footer-section address ul li a{
   color: black;
   text-decoration: none;
 }
@@ -681,6 +709,14 @@ input[type="email"]::placeholder {
 
 /* footer slut */
 
+
+
 /* media screens start */
+
+
+
+
+
+
 
 /* media screens slut */
