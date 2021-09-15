@@ -69,7 +69,13 @@ nav ul li a {
   display: block;
 }
 
-/* navigation slut */
+#select{
+  display: none;
+}
+
+/* navagation slut */
+
+
 
 /* header forside start */
 
@@ -722,6 +728,64 @@ input[type="email"]::placeholder {
 /* footer slut */
 
 /* media screens start */
+@media screen and (max-width: 1000px) {
+  #navbar{display: none;}
+  #dropdown-select-content{display: none;}
+  #select{display: inline-block;}
+
+  nav{
+    text-align: right;
+    height: 70px;
+  }
+
+  ul#select{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  li#select-dropdown {
+    padding: 20px 0px 0px 0px;
+  }
+
+  #select-dropdown{
+    position: relative;
+    display: block;
+  }
+
+  #select-dropdown a{
+    height: auto;
+    top: 0px;
+    padding: 20px 40px 15px 40px;
+  }
+  
+  #select-dropdown-content{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    display: none;
+    position: absolute;
+  }
+  
+  #select-dropdown-content a{
+    width: 125px;
+    height: auto;
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  ul#select-dropdown-content{
+    text-align: left;
+    margin: 0px;
+    margin-top: 15px;
+    padding: 0px;
+    right: 0px;
+    width: 125px;
+  }
+  
+  #select-dropdown:hover #select-dropdown-content{
+    display: block;
+  }
 
 @media screen and (max-width: 1260px) {
   #aktiviteter-1 section img {
