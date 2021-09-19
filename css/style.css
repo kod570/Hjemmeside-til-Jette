@@ -31,19 +31,9 @@ nav ul li a {
   font-size: 22px;
 }
 
-nav ul li a:hover {
-  background-color: rgba(22, 152, 37, 1);
-  color: white;
-}
-
 .here {
   background-color: rgba(22, 152, 37, 1);
   color: white;
-}
-
-.here:hover {
-  background-color: rgba(0, 0, 0, 0);
-  color: black;
 }
 
 #dropdown {
@@ -76,14 +66,6 @@ nav ul li a:hover {
   font-size: 18px;
 }
 
-#dropdown-content a:hover {
-  color: white;
-}
-
-#dropdown-content a:hover {
-  background-color: none;
-}
-
 #dropdown:hover #dropdown-content {
   display: block;
 }
@@ -101,7 +83,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
-  min-height: 720px;
 }
 
 header div {
