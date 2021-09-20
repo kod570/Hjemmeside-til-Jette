@@ -833,18 +833,15 @@ input[type="email"]::placeholder {
   #headersection {
     flex-direction: column-reverse;
   }
-
   #white-box1 {
     flex-direction: column;
   }
-
   #white-box1 img {
     width: 100%;
   }
   #picture-of-kindergarden h2 {
     font-size: 45px;
   }
-
   #white-box1 article {
     width: 100%;
   }
