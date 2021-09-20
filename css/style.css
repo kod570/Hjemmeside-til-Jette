@@ -534,30 +534,30 @@ h1 {
 
 /* kontakt side start */
 
-#kontakt-os {
+#contact-us {
   margin: 0 auto;
   max-width: 1400px;
   padding: 50px 15px;
 }
 
-#kontakt-os label {
+#contact-us label {
   display: block;
   margin-top: 20px;
   font-size: 1.2rem;
 }
 
-#kontakt-os form {
+#contact-us form {
   display: block;
 }
 
-#kontakt-os input[type="email"],
-#kontakt-os input[type="text"]::placeholder {
+#contact-us input[type="email"],
+#contact-us input[type="text"]::placeholder {
   font-size: 18px;
   line-height: 50px;
 }
 
-#kontakt-os input[type="email"],
-#kontakt-os input[type="text"] {
+#contact-us input[type="email"],
+#contact-us input[type="text"] {
   padding-top: 0px;
   width: 30%;
   height: 45px;
@@ -567,7 +567,7 @@ h1 {
   text-indent: 15px;
 }
 
-#kontakt-os input[type="submit"] {
+#contact-us input[type="submit"] {
   margin-top: 10px;
   background-color: rgba(22, 152, 37, 1);
   border: none;
@@ -579,7 +579,7 @@ h1 {
   cursor: pointer;
 }
 
-#kontakt-os textarea {
+#contact-us textarea {
   width: 500px;
   height: 200px;
   border: none;
@@ -592,13 +592,49 @@ h1 {
 
 /* Log-ind start */
 
+#login-form {
+  text-align: center;
+  margin: 50px auto 100px;
+}
+
 #login-form label {
   display: block;
   padding: 10px;
 }
 
-#login-form {
-  text-align: center;
+#login-form label {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"]::placeholder {
+  font-size: 18px;
+  line-height: 50px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+  padding-top: 0px;
+  width: 30%;
+  height: 45px;
+  border: none;
+  background-color: lightgrey;
+  line-height: 50px;
+  text-indent: 15px;
+}
+
+#login-form input[type="submit"] {
+  margin-top: 10px;
+  background-color: rgba(22, 152, 37, 1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 30%;
+  height: 40px;
+  font-size: 25px;
+  cursor: pointer;
 }
 
 /* Log-ind slut */
