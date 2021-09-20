@@ -745,7 +745,7 @@ input[type="email"]::placeholder {
 
   nav {
     text-align: right;
-    height: 70px;
+    height: 80px;
   }
 
   ul#select {
@@ -765,7 +765,7 @@ input[type="email"]::placeholder {
   #select-dropdown a {
     height: auto;
     top: 0px;
-    padding: 20px 40px 15px 40px;
+    padding: 20px 40px 25px 40px;
   }
 
   #select-dropdown-content {
@@ -787,7 +787,7 @@ input[type="email"]::placeholder {
   ul#select-dropdown-content {
     text-align: left;
     margin: 0px;
-    margin-top: 15px;
+    margin-top: 25px;
     padding: 0px;
     right: 0px;
     width: 125px;
