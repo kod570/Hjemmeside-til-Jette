@@ -222,16 +222,20 @@ h1 {
   display: flex;
   max-width: 1400px;
   margin: 0 auto;
-  background-color: white;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
 #apply{
+  background-color: white;
   width: 100%;
   padding: 60px;
   font-size: 30px;
+}
+
+#applyimage{
+  background-color: black;
 }
 
 #white-box2 img {
