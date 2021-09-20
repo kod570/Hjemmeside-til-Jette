@@ -875,6 +875,10 @@ input[type="email"]::placeholder {
     margin: auto;
     margin-bottom: 20px;
   }
+  #opening {
+    position: relative;
+    right: 15px;
+  }
   #newsletter {
     margin: 0;
   }
