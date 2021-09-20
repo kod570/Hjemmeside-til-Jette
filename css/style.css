@@ -848,6 +848,9 @@ input[type="email"]::placeholder {
   #white-box1 article {
     width: 100%;
   }
+  #white-box2 {
+    flex-direction: column;
+  }
   #activites-1{
     flex-direction: column;
   }
