@@ -36,6 +36,7 @@ nav img{
   height: 75px;
   padding: 5px;
   float: left;
+  clear: both;
 }
 
 .here {
@@ -461,15 +462,16 @@ h1 {
 }
 
 #gallerylink a {
-  font-size: 18px;
-  color: black;
-  font-family: "Shadows Into Light", cursive;
-  display: inline-block;
-  padding: 5px 15px;
-}
-
-#gallerylink a:hover {
-  color: rgba(22, 152, 37, 1);
+  display: block;
+  width: 175px;
+  margin-top: 10px;
+  background-color: rgba(22, 152, 37, 1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  cursor: pointer;
 }
 
 #gallery h3 {
