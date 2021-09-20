@@ -604,8 +604,7 @@ footer {
   background-position: center bottom;
   background-size: contain;
   width: 100%;
-  height: 500px;
-  margin-top: 150px;
+  padding: 50px 0px 175px 0px
 }
 
 #logo {
@@ -861,8 +860,22 @@ input[type="email"]::placeholder {
   .activites-p {
     left: 250px;
   }
-  footer{
-
+  footer {
+    padding: 50px 0px 150px 0px
+  }
+  #footer-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  #logo {
+    margin: auto;
+  }
+  #opening{
+    position: relative;
+    right: 15px;
+  }
+  #newsletter{
+    margin: auto;
   }
 }
 /* media screens slut */
