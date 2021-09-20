@@ -166,11 +166,11 @@ h1 {
   height: 300px;
 }
 
-#billede-af-børnehave {
+#picture-of-kindergarden {
   padding: 50px;
 }
 
-#billede-af-børnehave h2 {
+#picture-of-kindergarden h2 {
   font-family: "Shadows Into Light", cursive;
   font-size: 70px;
 }
@@ -196,16 +196,16 @@ h1 {
   object-fit: cover;
 }
 
-#billede-over-footer ul {
+#picture-over-footer ul {
   margin-left: 20px;
 }
 
-#billede-over-footer {
+#picture-over-footer {
   background-image: url("/img/billede-over-footer1.png");
   padding: 80px 0px;
 }
 
-#billede-over-footer h2 {
+#picture-over-footer h2 {
   font-family: "Shadows Into Light", cursive;
   font-size: 70px;
 }
@@ -242,65 +242,65 @@ h1 {
   text-align: center;
 }
 
-#aktiviteter {
+#activites {
   max-width: 1400px;
   margin: 0 auto;
   padding: 50px;
 }
 
-#aktiviteter h2 {
+#activites h2 {
   text-align: center;
   color: rgba(22, 152, 37, 1);
   font-size: 50px;
   font-family: "Shadows Into Light", cursive;
 }
 
-#aktiviteter h2::first-letter {
+#activites h2::first-letter {
   text-transform: uppercase;
 }
 
-#aktiviteter-1 {
+#activites-1 {
   max-width: 1400px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
 }
 
-#aktiviteter-1 section {
+#activites-1 section {
   max-width: 500px;
   border-radius: 10px;
   margin-bottom: 50px;
   box-shadow: 0 4px 6px -4px;
 }
 
-#aktiviteter-1 section img {
+#activites-1 section img {
   max-width: 500px;
   max-height: 375px;
   border-radius: 10px 10px 0px 0px;
 }
-#aktiviteter-1 h4::before {
+#activites-1 h4::before {
   content: "";
   position: relative;
 }
 
-#aktiviteter-1 h4 {
+#activites-1 h4 {
   margin: 10px 0px 10px 10px;
   font-weight: lighter;
   font-size: 1.4rem;
 }
 
-#aktiviteter-1 p {
+#activites-1 p {
   margin: 10px 0px 10px 10px;
   font-size: 1.2rem;
 }
 
-#aktiviteter-1 a {
+#activites-1 a {
   display: block;
   text-decoration: none;
   margin-right: 8px;
 }
 
-#aktiviteter-1 a span {
+#activites-1 a span {
   margin-right: 5px;
   color: black;
   font-weight: bold;
@@ -309,7 +309,7 @@ h1 {
   bottom: 2px;
 }
 
-.aktiviteter-p {
+.activites-p {
   margin: 0px !important;
   position: relative;
   left: 300px;
@@ -339,7 +339,7 @@ h1 {
   color: rgba(22, 152, 37, 1);
 }
 
-#bestyrelsen {
+#the-board {
   max-width: 1400px;
   display: flex;
   flex-wrap: wrap;
@@ -347,25 +347,25 @@ h1 {
   justify-content: space-evenly;
 }
 
-#bestyrelsen .big {
+#the-board .big {
   width: 35%;
   margin: 20px;
   margin-bottom: 50px;
 }
 
-#bestyrelsen .big img {
+#the-board .big img {
   width: 100%;
 }
 
-#bestyrelsen .small {
+#the-board .small {
   width: 25%;
 }
 
-#bestyrelsen .small img {
+#the-board .small img {
   width: 100%;
 }
 
-#medarbejder {
+#workers {
   max-width: 1400px;
   display: flex;
   flex-wrap: wrap;
@@ -373,17 +373,17 @@ h1 {
   justify-content: space-evenly;
 }
 
-#medarbejder div {
+#workers div {
   width: 35%;
   margin: 20px;
   margin-bottom: 50px;
 }
 
-#medarbejder div img {
+#workers div img {
   width: 100%;
 }
 
-#medarbejder div p {
+#workers div p {
   margin-top: 30px;
 }
 
@@ -391,12 +391,12 @@ h1 {
 
 /* vedtaegter side start */
 
-#politik {
+#politics {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-#politik h1 {
+#politics h1 {
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
@@ -404,39 +404,39 @@ h1 {
   margin: 20px 0px 10px 0px;
 }
 
-#politik h1::first-letter {
+#politics h1::first-letter {
   text-transform: uppercase;
 }
 
-#politik-1 {
+#politics-1 {
   padding: 10px;
 }
 
-#politik-1 h3 {
+#politics-1 h3 {
   padding: 10px 0px 10px 0px;
 }
 
-#politik-10 {
+#politics-10 {
   padding: 10px;
 }
 
-#politik-10 h3 {
+#politics-10 h3 {
   padding: 10px 0px 10px 0px;
 }
 
-.Vedtaegter {
+.articles-of-association {
   padding: 10px;
 }
 
-.Vedtaegter h3 {
+.articles-of-association h3 {
   padding: 10px 0px 10px 0px;
 }
 
-#politik-20 {
+#politics-20 {
   padding: 10px 10px 30px 10px;
 }
 
-#politik-20 h3 {
+#politics-20 h3 {
   padding: 10px 0px 10px 0px;
 }
 
@@ -444,16 +444,16 @@ h1 {
 
 /* billeder side start */
 
-#gallerilink {
+#gallerylink {
   padding-top: 35px;
   padding-left: 15px;
 }
 
-#gallerilink li {
+#gallerylink li {
   list-style-type: none;
 }
 
-#gallerilink a {
+#gallerylink a {
   font-size: 18px;
   color: black;
   font-family: "Shadows Into Light", cursive;
@@ -461,28 +461,28 @@ h1 {
   padding: 5px 15px;
 }
 
-#gallerilink a:hover {
+#gallerylink a:hover {
   color: rgba(22, 152, 37, 1);
 }
 
-#galleri h3 {
+#gallery h3 {
   margin-top: 15px;
   padding: 25px;
   font-size: 40px;
 }
 
-#galleri h4 {
+#gallery h4 {
   font-size: 20px;
   padding-top: 25px;
   padding-bottom: 15px;
 }
 
-#stemningsbilleder {
+#atmosphere-pictures {
   text-align: center;
   justify-content: space-around;
 }
 
-#stemningsbilleder img {
+#atmosphere-pictures img {
   object-fit: cover;
   width: 33%;
   max-width: 90%;
@@ -490,12 +490,12 @@ h1 {
   height: 300px;
 }
 
-#måltider {
+#meals {
   text-align: center;
   justify-content: space-around;
 }
 
-#måltider img {
+#meals img {
   object-fit: cover;
   width: 33%;
   max-width: 90%;
@@ -503,12 +503,12 @@ h1 {
   height: 300px;
 }
 
-#stuer {
+#livingrooms {
   text-align: center;
   justify-content: space-around;
 }
 
-#stuer img {
+#livingrooms img {
   object-fit: cover;
   width: 48%;
   max-width: 90%;
@@ -641,26 +641,26 @@ address h4 {
   color: black;
   text-decoration: none;
 }
-#aabning {
+#opening {
   max-width: 300px;
   padding: 0 50px;
 }
-#aabning h4 {
+#opening h4 {
   font-family: "Shadows Into Light", cursive;
   color: rgba(22, 152, 37, 1);
   font-size: 24px;
   margin-bottom: 10px;
 }
-#aabning p {
+#opening p {
   font-size: 22px;
 }
-#footer-galleri-div {
+#footer-gallery-div {
   display: flex;
   max-width: 345px;
   flex-wrap: wrap;
 }
 
-#footer-galleri-div h4 {
+#footer-gallery-div h4 {
   color: rgba(22, 152, 37, 1);
   width: 100%;
   font-family: "Shadows Into Light", cursive;
@@ -668,17 +668,17 @@ address h4 {
   margin-bottom: 10px;
 }
 
-#footer-galleri-div img {
+#footer-gallery-div img {
   max-width: 100px;
   margin: 5px;
 }
 
-#nyhedsbrev {
+#newsletter {
   max-width: 330px;
   margin-left: 35px;
 }
 
-#nyhedsbrev h4 {
+#newsletter h4 {
   color: rgba(22, 152, 37, 1);
   width: 100%;
   margin-bottom: 10px;
@@ -686,7 +686,7 @@ address h4 {
   font-size: 24px;
 }
 
-#nyhedsbrev p {
+#newsletter p {
   margin-top: 10px;
   font-size: 22px;
   margin-bottom: 20px;
@@ -712,7 +712,7 @@ input[type="email"]::placeholder {
   text-indent: 15px;
 }
 
-#Tilmeld-footer {
+#signup-footer {
   margin-top: 10px;
   background-color: rgba(22, 152, 37, 1);
   border: none;
@@ -832,26 +832,26 @@ input[type="email"]::placeholder {
   #white-box1 img {
     width: 100%;
   }
-  #billede-af-børnehave h2 {
+  #picture-of-kindergarden h2 {
     font-size: 45px;
   }
 
   #white-box1 article {
     width: 100%;
   }
-  #aktiviteter-1{
+  #activites-1{
     flex-direction: column;
   }
-  #aktiviteter-1{
+  #activites-1{
     align-items: center;
   }
-  #aktiviteter-1 section{
+  #activites-1 section{
     max-width: 350px;
   }
-  #aktiviteter-1 section img {
+  #activites-1 section img {
     max-width: 100%;
   }
-  .aktiviteter-p {
+  .activites-p {
     left: 250px;
   }
 }
