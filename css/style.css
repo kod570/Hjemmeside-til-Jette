@@ -32,6 +32,12 @@ nav ul li a {
   cursor:pointer;
 }
 
+nav img{
+  height: 75px;
+  padding: 5px;
+  float: left;
+}
+
 .here {
   background-color: rgba(22, 152, 37, 1);
   color: white;
