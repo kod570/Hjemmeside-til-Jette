@@ -626,7 +626,7 @@ h1 {
 }
 
 #login-form input[type="submit"] {
-  margin-top: 10px;
+  margin-top: 20px;
   background-color: rgba(22, 152, 37, 1);
   border: none;
   border-radius: 5px;
