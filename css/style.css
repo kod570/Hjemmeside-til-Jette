@@ -747,7 +747,7 @@ input[type="email"]::placeholder {
 
   nav {
     text-align: right;
-    height: 70px;
+    height: 80px;
   }
 
   ul#select {
@@ -767,7 +767,7 @@ input[type="email"]::placeholder {
   #select-dropdown a {
     height: auto;
     top: 0px;
-    padding: 20px 40px 15px 40px;
+    padding: 20px 40px 25px 40px;
   }
 
   #select-dropdown-content {
@@ -860,6 +860,9 @@ input[type="email"]::placeholder {
   }
   .activites-p {
     left: 250px;
+  }
+  footer{
+
   }
 }
 /* media screens slut */
